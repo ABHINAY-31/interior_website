@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+           display: flex;
+           height: 100vh;
+           justify-content: center;    
+           align-items: center;
+           background: linear-gradient(135deg,#71b7e6,#9b59b6);
+           padding: 10px;
+        }
+        form{
+            max-width: 100vh;
+            width: 100%;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 30px;
+
+        }  
+        .input td{
+            width:calc(100%  / 2 - 20px);
+        }
+        .input td input{
+            
+            height: 45px;
+            width: 100%;
+            border: 2px solid rgb(19, 19, 9);
+            border-radius: 2rem;
+            font-size: 1rem;
+            padding-left: 15px;
+        }
+        .button td input{
+            width: 5rem;
+            height: 2rem;
+            border: 2px solid rgb(19, 19, 9);
+            margin-left:1rem ;
+            border-radius: 2rem;
+            font-size: 1rem;
+            background-color: dimgray;
+        }
+        .textarea td textarea{
+            width: 14rem;
+            border: 0.2rem solid black;
+            border-radius: 2rem;
+            padding-left: 15px;
+            font-size: 1rem;
+        }
+        @media (max-width:584px){
+         form{
+             width: 100%;
+         }
+         .input td{
+             margin-bottom: 15px;
+            width:100%;
+        }
+        .input td input{
+            width: auto;
+        }
+        .button td input{
+            width: 100%;
+        }
+        .textarea td textarea{
+            width: 100%;
+        }
+
+
+  
+   } 
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <table>
+            <tbody>
+                <tr class="input">
+                    <td><label>Name: </label></td>
+                    <td><input type="text" name="Full_name"></td>
+                </tr>
+
+                <tr class="input">
+                    <td><label >Email: </label></td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+                <tr class="input"> 
+                    <td><label>Contact Number:</label></td>
+                    <td><input type="text" name="number"></td>
+                </tr>
+
+                <tr class="textarea"> 
+                    <td><label>Address:</label></td>
+                    <td><textarea name="address" cols="18" rows="8"></textarea></td>
+                </tr>
+
+                <tr class="textarea"> 
+                    
+                    <td><label>Work Description:</label></td>
+                    <td><textarea name="description"  cols="15" rows="8"></textarea></td>
+                </tr>
+
+                <tr class="button">
+                    <td><input type="reset" name="reset" value="reset"></td>
+                    <td><input type="submit" name="Submit" value="Submit"></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

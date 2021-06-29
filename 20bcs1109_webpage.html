@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+       body{
+        margin: 0rem;
+        padding: 0rem; 
+    }
+      header{
+        height:94.5vh;
+        background-image: url('image/morning-4411421.jpg'); 
+        position: relative;
+        background-position: center;
+        background-size: cover; 
+    }
+        .second_section{
+           display: block;
+           width: 70%;
+           margin-left: 10rem;
+        }
+          .navigation li{
+            display: inline-block;
+            padding: 1.2rem;
+            padding-top: 0.6rem;
+            font-size: 1.6rem;
+        }
+         .navigation li a{
+            color: rgb(4, 4, 22);
+            text-decoration: none;
+        }
+         .navigation li a:hover, .navigation li a.active{
+            text-decoration: underline;
+            font-variant: small-caps;
+            font-size: 1.8rem;
+            color: darkred;
+        }
+        .quote{
+            display: block;
+            width: 50%;
+            margin: 12% auto;
+            font-size: 2rem;
+            font-style: oblique;
+        }
+        .quote p{
+            width: 120%;
+            color: rgb(7, 16, 39);
+        }
+        main{
+            height: fit-content;
+            border: 4px solid rgb(22, 5, 5);
+            background-image: linear-gradient(#ff6f69,#ffcc5c);
+            padding: 2rem 2rem 2rem 2rem;
+        }
+        .desc_1{
+            border: 0.2rem solid rgb(19, 3, 3);
+            height: auto;
+            border-radius: 4rem;
+            background-color: rgb(14, 146, 106);
+            font-style: italic;
+            padding: 1rem 0.5rem 1rem 0.5rem;
+            display: flex;
+            justify-content: space-around;
+            margin: 1.5rem;
+        }
+        .para_1{
+            border: 2px solid black;
+            width: 45%;
+            height: 17rem;
+            border-radius: 4rem;
+            font-size: 2rem;
+            box-shadow: 2.0rem 2.0rem 3.0rem #000;
+            color: rgb(11, 53, 36);
+            background-color: goldenrod;
+            margin: 1.5rem;
+        }
+        .image_1{
+            border: 2px solid rgb(20, 6, 6);
+            width: 45%;
+            height: 17rem;
+            border-radius: 4rem;
+            box-shadow: 2.0rem 2.0rem 3.0rem #000;
+            background-image: url('image/reed-5991717.jpg');
+            background-position: center;
+            background-size: cover;
+            margin: 1.5rem;
+        }
+        .desc_2{
+            border: 0.2rem solid rgb(29, 9, 9);
+            height: auto;
+            padding: 1rem 0.5rem 1rem 0.5rem;
+            border-radius: 4rem;
+            background-color: rgb(14, 146, 106);
+            display: flex;
+            justify-content: space-around;
+            font-style: italic;
+            margin: 1.5rem;
+        }
+        .para_2{
+            border: 2px solid rgb(24, 6, 6);
+            width: 45%;
+            height: 17rem;
+            border-radius: 4rem;
+            box-shadow: 2.0rem 2.0rem 3.0rem #000;
+            font-size: 2rem;
+            color: rgb(11, 53, 36);
+            background-color: goldenrod;
+            margin: 1.5rem;
+        }
+        .image_2{
+            border: 2px solid rgb(26, 15, 15);
+            width:45% ;
+            height: 17rem;
+            border-radius: 4rem;
+            box-shadow: 2.0rem 2.0rem 3.0rem #000;
+            background-image: url('image/landscape-6199355.jpg');
+            background-position: center;
+            background-size: cover;
+            margin: 1.5rem;
+        }
+        .image_3{
+            border: 2px solid rgb(22, 6, 6);
+            width: 45%;
+            height: 17rem;
+            border-radius: 4rem;
+            box-shadow: 2.0rem 2.0rem 3.0rem #000;
+            background-image: url('image/sky-5961642.jpg');
+            background-position: center;
+            background-size: cover;
+            margin: 1.5rem;
+        }
+        @media(max-width:998px){
+           html{
+            font-size: 60%;
+           }
+        }
+        @media(max-width:789px){
+            header{
+                height: 60vh;
+            }
+           html{
+            font-size: 45%;
+           }
+        @media(max-width:568px)
+        {
+            html{
+                font-size: 40%;
+            }
+           .desc_1{
+               flex-wrap: wrap;
+           }
+           .image_3{
+            flex-wrap: wrap;
+           }
+          .desc_2{
+            flex-wrap: wrap-reverse;
+        }
+        .para_1{
+            width:70%;
+        }
+        .image_1{
+            width: 70%;
+        }
+        .para_2{
+            width: 70%;
+        }
+        .image_2{
+            width:70%;
+        }
+        .image_3{
+            width: 70%;
+        }
+    }
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="second_section">
+            <ul class="navigation">
+                <li> <a href="#" class="active">Home</a> </li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Tourism_places</a></li>
+                <li> <a href="registrantion_form.html" target="_blank">Registration Form</a></li>
+                <li> <a href="https://www.google.com/gmail/about/" target="_blank">Email</a> </li>
+            </ul>
+        </div>
+        <div class="quote">
+            <h3 class="quote_1">Progress is impossible without change, and those who cannot change their minds cannot change anything</h3>
+        </div>  
+    </header>
+
+    <main>
+        <div class="desc_1">
+            <div class="para_1">
+                <p class="para">I am not the same having seen the moon shine on the other side of the world.</p>
+            </div>
+            <div class="image_1"></div>
+           
+        </div>
+
+        <div class="desc_2">
+        <div class="image_2"></div>
+          <div class="para_2">
+            <p class="par">Certainly, travel is more than the seeing of sights; it is a change that goes on, deep and permanent, in the ideas of living.</p>
+         </div>
+           
+        </div>
+
+        <div class="desc_1">
+            <div class="para_1">
+                <p class="para">Travel is fatal to prejudice, bigotry, and narrow-mindedness, and many of our people need it sorely on these accounts.” – Mark Twain</p>
+            </div>
+            <div class="image_3"></div>
+        </div>
+
+    </main>
+       
+</body>
+</html>
